@@ -1,8 +1,9 @@
+## Intro
 Here is a brief guide to human voice transcription based on the knowledge I have gained from working on a tts project.
 This guide is split in 3 parts, and will focus on types of transcribing, tools, tips and general things to keep in mind when transcribing.
 This guide is primarily aimed at using audacity, but can be adapted for other tools.
 
-Part one - Types of transcription tasks
+## Part one - Types of transcription tasks
 
 There are 3 broad categories of transcriptions based on the amount initial data presented with. They are ranked
 according descending in terms of the time/difficulty to complete:
@@ -32,7 +33,7 @@ voices. This is done by placing an additional label over the transcribed text in
 In the tts project the variant speaking is still in experimental stages but it is believed that this is how the 'forsenSWA' 
 voice was created in 'notastreamers' tts project for forsen.
 
-Part two - tools used
+## Part two - tools used
 
 The first tool used in transcription is obviously audacity as mentioned earlier. One simply needs to open audacity, import the desired
 audio file, import the label file(create one if doing zero data transcriptions) and start transcribing. Generally however here are a few
@@ -61,7 +62,7 @@ espeak-ng.exe "insert text here" default). This allows you to hear whata tts wou
 you can replace if a speaker misspeaks, or to check for prounciation differences between different variants of english (such as UK vs US). 
 
 
-Part three - General tips and tricks
+## Part three - General tips and tricks
 
 - Firstly, as mentioned previously, you will not need number keys for transcriptions. Every date or number said should be typed out
 in full as a word to ensure data integrity. 
@@ -100,6 +101,7 @@ the data collection in general and your transcription skill.
 
 AutoHotKeyScript for labelling a voice
 
+```
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -214,4 +216,4 @@ return
 
 Esc::ExitApp
 
-
+```
