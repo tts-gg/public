@@ -1,7 +1,38 @@
 ## Intro
 Here is a brief guide to human voice transcription based on the knowledge I have gained from working on a tts project.
-This guide is split in 3 parts, and will focus on types of transcribing, tools, tips and general things to keep in mind when transcribing.
+This guide is split in 4 parts, and will focus on types of transcribing, tools, tips and general things to keep in mind when transcribing.
 This guide is primarily aimed at using audacity, but can be adapted for other tools.
+
+##Part zero - General audacity help
+
+To work on audacity labeling project, you will need audacity and 2 files: the audio in wav 16 - bit format and a labels file in txt format.
+I suggest organizing these files into a folder for each labelling task you do.
+
+#For the audio wav files:
+Step zero: Get audio in some format that you aim to label (mp3,mp4,wav,ogg, etc)
+Step one: Open that audio file in audacity by opening audacity and pressing file->open and selecting the audio file( you might to install ffmpeg as an addon to audacity to open mp3s or mp4s  - https://manual.audacityteam.org/man/installing_ffmpeg_for_windows.html )
+Step two(not necessary if the source is already in .wav format): Export the audio file by pressing file->export->export as wav and select 16 bit.
+
+#For the .txt files:
+Step zero: Create a .txt file by right clicking and selecting new text file, and place that in your labelling task folder.
+
+#For the labelling project - getting started:
+Step zero: Open up the .wav file by using file->open and selecting .wav file of the audio. 
+Step one: Import the empty labels .txt file by selecting file->import->labels. A new track should appear below the audio track
+
+#Labelling process itself in audacity:
+Firstly, I suggest just zooming in to have about 20 seconds worth of audio data present at all times. Use the horizontal scrollbar at the bottom to go forwards and backwards.
+Next, click where you want to play on the audio track. This will create a black line in the audio track. 
+Now whenever you press the green play button it will start playing from the black line. Press the square to stop playback.
+To listen to a section of audio, click and hold where you want to start the audio, and drag the mouse to the end.
+Now when you press play, it will play just until the the end of the selected audio.
+To create a label, the quickest way is to use ctrl+B, which will create an label around the selection or starting at black bar in the labels track.
+Click on the label box in the track to type in the label text, and the arrows at each side to position the start and end of the label.
+
+Once you are finished with the labels track, click file->export->export labels and select where you want to save the new labels file.
+To check your work, you can open up the labels file in notepad or notepad++ and you should see a format like this, each on a new line for a new label:
+<starting position in seconds> <end position in seconds> <label text>
+
 
 ## Part one - Types of transcription tasks
 
