@@ -115,8 +115,8 @@ or type out what they said phonetically. Using espeak to check the phonetic tts 
 - Learn a speakers voice patterns. This allows you to predict and more quickly identify a cough or deep breath, or 
 stuttering they might perform that you can correct.
 
-- Aim for an average of 4-8 second sections, and don't put any sections longer than 10s. This is easy to do as a speaker will almost always take 
-a breath at least once every 10s
+- Aim for an average of 4-8 second sections, and don't put any sections longer than 9s. This is easy to do as a speaker will almost always take 
+a breath at least once every 9s
 
 - Work on small files, and take breaks. It is exhausting and tiring working on long files, and you can miss important details.It is also far
 easier to listen through a short file again to spot any mistakes. That being said, getting into a rythym is important to, and keep in mind that 
